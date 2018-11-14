@@ -1,0 +1,36 @@
+/**
+@author: Calvin Lowe [Yggdrasil]
+@date: 12.09.18
+**/
+
+/*=============================================================================
+#   Drag and drop upload
+=============================================================================*/
+.dropbox {
+    background-color: rgb(220, 229, 237);
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.dropbox--highlight {
+    background-color: rgb(238, 242, 246);
+    border: 2px dashed purple;
+}
+
+.upload__heading {
+    text-align: center;
+}
+
+.upload__button {
+    display: block;
+}
+
+input[type="file"] {
+    display: none;
+}
+.browse__button {
+    display: inline-block;
+}

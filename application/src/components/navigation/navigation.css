@@ -1,0 +1,92 @@
+/**
+@author: Calvin Lowe [Yggdrasil]
+@date: 11.09.18
+**/
+
+/*=============================================================================
+#   Navigation
+=============================================================================*/
+.navigation {
+    background-color: var(--primary-dark-colour);
+    box-shadow: 2px 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navigation__header {
+    background-color: var(--secondary-dark-colour);
+    padding: 1rem;
+    text-align: center;
+}
+
+.navigation__header__heading, .navigation__header__subheading {
+    color: var(--primary-light-colour);
+}
+
+.navigation__header__profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding: 0.25rem;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation-hidden {
+    padding-top: 2rem;
+    background-color: var(--primary-dark-colour);
+    width: 3rem;
+}
+
+.navigation-hidden .navigation__link {
+    grid-template-columns: auto;
+}
+
+.navigation-hidden .navigation__link__text {
+    display: none;
+}
+
+.navigation-hidden .navigation__header {
+    display: none;
+}
+
+.navigation__button {
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    
+}
+
+.navigation__button:hover {
+    background-color: var(--hover-green);
+}
+
+.navigation__list {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation__link {
+    padding: 1rem 0.75rem;
+    color: #eee;
+    text-decoration: none;
+
+    display: grid;
+    grid-template-columns: 2rem auto;
+    align-items: center;
+}
+
+.navigation__link:hover {
+    background-color: var(--secondary-dark-colour);
+}
+
+.navigation__link svg {
+    color: var(--success-green);
+    justify-self: center;
+}
+
+.navigation__link__text {
+    padding: .25rem .5rem;
+}

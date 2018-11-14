@@ -1,0 +1,6 @@
+.dashboard__section {
+    border: dotted 1px grey;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: beige;
+}

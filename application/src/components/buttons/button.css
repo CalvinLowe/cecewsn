@@ -1,0 +1,31 @@
+.button {
+    background-color: var(--primary-accent-colour);
+    color: var(--primary-light-colour);
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2);
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    text-transform: uppercase;
+}
+.button:hover {
+    background-color: var(--hover-green);
+    box-shadow: unset;
+}
+.button--small {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+.button--large {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+.button--cancel {
+    background-color: var(--cancel-red);
+}
+.button--cancel:hover {
+    background-color: var(--hover-red);
+    box-shadow: unset;
+}
